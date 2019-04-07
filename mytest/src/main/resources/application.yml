@@ -1,0 +1,21 @@
+spring:
+  application:
+    name: consul-produce
+
+  cloud:
+    consul:
+      host: 127.0.0.1
+      port: 8500
+      discovery:
+        health-check-path: /actuator/health
+        health-check-interval: 10s
+        instance-id: ${spring.application.name}:${spring.cloud.client.ip-address}:${server.port}
+        register: true
+#        表示节点名，如果不写就是默认项目名
+        service-name: aaa
+server:
+  port: 8501
+
+
+
+
