@@ -9,6 +9,7 @@ import org.springframework.web.bind.annotation.RestController;
 //import org.springframework.web.client.RestTemplate;
 
 /**
+ * docker下载安装教程：https://www.cnblogs.com/ityouknow/p/8588725.html
  * 执行packge会进行生成镜像的操作
  * docker与idea的整合详情https://www.cnblogs.com/hsz-csy/p/9488469.html
  * 以下注掉的代码均是测试consul所用，因为consul装在Windows上，以测试模式（-Dev）启动
