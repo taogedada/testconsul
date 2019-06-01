@@ -21,7 +21,7 @@ public class ConsulTest {
 int a = 1;
 int j = 1;
 int d = 2;
-   int f = 1;
+int s = 2;
 //    @Autowired
 //    private LoadBalancerClient loadBalancer;
 //    @Autowired
