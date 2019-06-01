@@ -19,7 +19,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class ConsulTest {
 int a = 1;
-    int z = 1;
+int j = 1;
 //    @Autowired
 //    private LoadBalancerClient loadBalancer;
 //    @Autowired
