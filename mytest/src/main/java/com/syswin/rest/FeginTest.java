@@ -10,3 +10,6 @@ package com.syswin.rest;
 //    public String getResult();
 //
 //}
+class A {
+
+        }

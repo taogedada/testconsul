@@ -1,4 +1,7 @@
 package com.syswin.rest;
+class B{
+
+}
 
 //public class FeginTestImpl implements FeginTest {
 //    @Override
